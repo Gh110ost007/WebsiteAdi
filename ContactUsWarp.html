@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Matrix Mobiles</title>
+<link rel="icon" href="assets/images/iconM.png">
+<link href='https://fonts.googleapis.com/css?family=Saira+Semi+Condensed' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Open+Sans&family=Recursive:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/mystyle.css">
+<link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+<div class="SideContainer">
+<img src="assets/images/Logo.png" width="100px" height="85px" style="position: fixed; left:25px; top: 20px;">
+<ul class="topbar" style="list-style-type: none;">
+   <li>
+    <a class="NavLink"  href="index.html">Home</a>
+    </li>
+<li>
+      <a class="NavLink" href="FeaturesWarp.html">Features</a>
+    </li>
+    <li>
+      <a class="NavLink" href="SpecsWarp.html" >Specs</a>
+    </li>
+    <li>
+      <a class="NavLink" href="AccesoriesWarp.html">Accessories</a>
+    </li>
+    <li>
+      <a class="NavLink active" href="ContactUsWarp.html" >Contact Us</a>
+    </li>
+</ul>
+</div>
+<div class="Contact">
+<p class="Heading">Contact Us</p>
+<div class="lol">
+  <Input type="text" placeholder="Name" Id="I1" class="ContactForm detailer"> </Input>
+  <br><br>
+  <Input type="text"  Placeholder="Email" id="I2" class="ContactForm detailer"></Input>
+  <br><br>
+    <textarea placeholder="Message" id="I3" class="ContactForm " rows="7" ></textarea>
+  <br><br><br>
+    <button id="ContactButton" onclick="mailer()">Submit</button>
+    <br><br><br>
+
+    <button onclick="showPh()" class="WA"><img src="assets/images/Icon.png"  height="50" width="50" id="img1" class="modal"></button>
+    <div class="content" id="D1">
+    <button class="CloseBut" onclick='closer()'>Close</button>
+    <img src="assets/images/Icon.png" height="50" width="50" style="position: absolute;top: 60;left:240;">
+    <p style="position: absolute;top:120;left:130 ;font-family: Open Sans,sans-serif;font-size: 25px;">Call Us <br><br><font color=#52BE80>1800 102 8411</font><br><br> 9 am - 9 pm, Mon to Sat</p>
+      
+    </div>
+    <button onclick="showWa()" class="WA" ><img src="assets/images/Icon2.png" height="50" width="50" id="img2" class="modal"></button>
+    <div class="content" id="D2" >
+    <button class="CloseBut" onclick='closer2()'>Close</button>
+    <img src="assets/images/Icon2.png" height="50" width="50" style="position: absolute;top: 60;left:240;">
+    <p style="position: absolute;top:120;left:50 ;font-family: Open Sans,sans-serif;font-size: 20px;">Our WhatsApp number is <font color=#52BE80>+919243559710</font><br><br> Add Matrix Support number to phone contacts,<br><br>then send us your questions via WhatsApp.</p>
+    </div>
+    <button onclick="showFb()" class="WA"><img src="assets/images/Icon3.png" height="50" width="50" id="img3" class="modal"></button>
+    <div class="content" id="D3">
+    <button class="CloseBut" onclick='closer3()'>Close</button>
+    <img src="assets/images/Icon3.png" height="50" width="50" style="position: absolute;top: 60;left:240;">
+    <p style="position: absolute;top:120;left:150 ;font-family: Open Sans,sans-serif;font-size: 25px;">Send us a message <br><br>on Facebook <br><br> <font color=#52BE80>@MatrixMobiles</font></p>
+    </div>
+    <button onclick="showTw()" class="WA"><img src="assets/images/Icon4.png" height="50" width="50" id="img4" class="modal"></button>
+    <div class="content"id="D4">
+    <button class="CloseBut" onclick='closer4()'>Close</button>
+    <img src="assets/images/Icon4.png" height="50" width="50" style="position: absolute;top: 60;left:240;">
+    <p style="position: absolute;top:120;left:160 ;font-family: Open Sans,sans-serif;font-size: 25px;">Tweet Us <br><br><font color=#52BE80>@MatrixMobiles</font></p>
+    </div>
+
+    <button onclick="showMap()" class="WA"><img src="assets/images/map.png"  height="50" width="50" id="img1" class="modal"></button>
+    <div class="content" id="D5">
+    <button class="CloseBut" onclick='closer5()'>Close</button>
+    <img src="assets/images/MapWithPins2.png" height="200" width="200" style="position: absolute;top: 100;left:40;">
+    <p style="position: absolute;top:100;left:230 ;font-family: Open Sans,sans-serif;font-size: 18px;width: 300;">Visit our service centres <br> all over India<br><br> Search <font color=#52BE80>Matrix Mobiles Service Center</font> <br>on google maps </p>
+      
+    </div>
+    
+  
+</div>
+<script src="scripts/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+.h1{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: greenyellow;
+    position: absolute;
+  }
+  .h2{
+    font-family: 'Open Sans', sans-serif;
+    color:#B3B6B7;
+    position: absolute;
+    
+  }
+  .tab{
+    font-family: 'Open Sans', sans-serif;
+    color:#B3B6B7;
+  } 
+  .tabHead{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: greenyellow;
+  }
